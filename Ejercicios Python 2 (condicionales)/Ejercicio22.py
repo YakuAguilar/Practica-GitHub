@@ -2,6 +2,6 @@
 var1=int(input(" introduce una nota "))
 
 if var1<5:
-    print(f"has suspendido")
+    print("has suspendido")
 elif var1>5:
-    print(f"has aprobado")
+    print("has aprobado")

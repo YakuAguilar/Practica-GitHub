@@ -13,4 +13,4 @@ elif var1.islower():
 elif var1.isnumeric():
     munero=True and print("lo que has introducido es una numero")
 else:
-    print("¿la letra es mayuscula?")
+    print("esto no es una letra")

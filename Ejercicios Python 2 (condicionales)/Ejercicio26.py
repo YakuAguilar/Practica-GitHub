@@ -10,4 +10,4 @@ if var1.isupper():
 elif var1.islower():
     minuscula=True and print("la letra introducida es minuscula")
 else:
-    print("no has introducido una letra")
+    print("esto no es una letra")
