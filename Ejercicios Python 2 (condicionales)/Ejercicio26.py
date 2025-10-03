@@ -2,7 +2,7 @@
 
 var1=(input("introduce una letra "))
 
-minuscula= False
+minuscula=False
 mayuscula=False
 
 if var1.isupper():
