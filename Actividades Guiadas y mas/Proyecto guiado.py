@@ -1,8 +1,8 @@
  #input(float("blablabla"))
 password="alcachofa"
 #para deternimar a cual de las letras nos referimos.
-print(var[0])
-print(var[1])
-print(var[2])
+print(password[0])#poner las condiciones que tienen que tener
+print(password[1])
+print(password[2])
 
 
