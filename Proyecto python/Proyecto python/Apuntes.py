@@ -18,7 +18,6 @@ password="a7e4jkE"
 vocales="aeiouAEIOU"
 TOTAL=0
 for i in password:
-    
     if i.isnumeric():
         TOTAL=TOTAL + int(i)
 print(TOTAL)
