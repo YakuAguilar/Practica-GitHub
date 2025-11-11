@@ -1,8 +1,7 @@
 
 total=0
-repeticiones=int(input("numero de veces "))
-for j in range (repeticiones):
-    print("hola")
+numeroinicial=int(input("introduce un numero "))
+for j in range (numeroinicial+1):
     total=total+j
 print(total)
 
