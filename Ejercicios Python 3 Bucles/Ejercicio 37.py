@@ -1,5 +1,11 @@
 
 
 numeroveces=int(input("introduce el numero de notas que quieres introducir "))
-for i in range(1, numeroveces + 1):
-   numeroveces = float(input(f"Introduce la nota {i}: "))
+for i in range (numeroveces):
+   nota= float(input("Introduce la nota : "))
+if nota<5:
+    print(" suspendido")
+else:
+    print("aprobado")
+
+
