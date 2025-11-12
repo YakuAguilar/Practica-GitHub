@@ -1,10 +1,6 @@
-
-
-
-
 pares=0
 impares=0 
-for j in range(1, 51): 
+for j in range(0, 50): 
     if j % 2 == 0: 
         pares=pares+1 
     else: 

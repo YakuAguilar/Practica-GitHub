@@ -11,8 +11,8 @@ for i in range (numeroveces):
         positivos=positivos+1
     else:
         ceros=ceros+1
-        print(f"hay {positivos} numeros positivos")
-        print(f"hay {ceros} ceros")
-        print(f"hay {negativos} numeros negativos")
+        print(f"hay {positivos} numero/s positivo/s")
+        print(f"hay {ceros} cero/s")
+        print(f"hay {negativos} numero/s negativo/s")
 
 
