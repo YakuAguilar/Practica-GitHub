@@ -7,12 +7,12 @@ for i in range (numeroveces):
     nota= float(input("Introduce la nota : "))
     if nota <0:
         negativos=negativos+1
-        print(f"hay {negativos} numeros negativos")
     elif nota>0:
-        positivo=positivo+1
-        print(f"hay {positivos} numeros positivos")
-    elif:
+        positivos=positivos+1
+    else:
         ceros=ceros+1
+        print(f"hay {positivos} numeros positivos")
         print(f"hay {ceros} ceros")
+        print(f"hay {negativos} numeros negativos")
 
 
