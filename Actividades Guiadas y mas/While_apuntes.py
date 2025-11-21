@@ -31,5 +31,6 @@ while num_secreto!=numero:
 else:
     print("acertaste")
     
+    
 
 
