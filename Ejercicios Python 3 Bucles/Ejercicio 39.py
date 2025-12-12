@@ -1,4 +1,4 @@
-
+#Programa que pida n números y que, tras introducir el último número, debe aparecer por pantalla el número total de positivos, negativos y número de 0.
 negativos=0
 positivos=0
 ceros=0

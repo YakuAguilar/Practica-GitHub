@@ -1,0 +1,1 @@
+#Modifica el programa anterior para que tengas 3 intentos. Utiliza while
