@@ -16,4 +16,7 @@ for x in range (len(milista)):
 for x in milista:
     milistapor2.append(x*2)
 
-print(milistapor2)
+milistapro=[n*2 for n in milista]
+print(milistapro)
+
+
