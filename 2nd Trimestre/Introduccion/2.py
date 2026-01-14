@@ -12,6 +12,6 @@ for x in range(len(listatodo)):
         listanumeros.append(listanumeros[x])
     else:
         listanumeros.append(listatodo[x])
-#append=
+#append= añade unn valor al final de la lista
 print(listanumeros)
 print(sum(listanumeros))
