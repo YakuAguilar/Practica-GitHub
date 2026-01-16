@@ -1,14 +1,16 @@
 
-si=0
-no=1
+si=()
+no=()
 listaletras=[]
+seguir=()
 
-print=input("introduce una letra entre comillas ")
-listaletras.append()
-seguir=input("quieres introducir otre letra? si/no")
-if seguir== 0:
-    print=input("introduce una letra")
-    listaletras.append()
-elif seguir== 1:
+letra=input("introduce una letra entre comillas ")
+listaletras.append(letra)
+#print(listaletras)
+seguir=input("quieres introducir otre letra? si/no: ")
+if seguir== si:
+    letra=input("introduce una letra entre comillas ")
+    listaletras.append(letra)
+elif seguir== no:
     print(listaletras)
 
