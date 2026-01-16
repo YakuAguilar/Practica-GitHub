@@ -2,7 +2,6 @@
 si=()
 no=()
 listaletras=[]
-seguir=()
 
 letra=input("introduce una letra entre comillas ")
 listaletras.append(letra)
@@ -14,3 +13,4 @@ if seguir== si:
 elif seguir== no:
     print(listaletras)
 
+ 
