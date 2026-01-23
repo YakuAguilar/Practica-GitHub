@@ -1,4 +1,4 @@
-lista=[]
+
 listaletras=[]
 listaletras2=[]
 while True:

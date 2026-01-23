@@ -8,8 +8,8 @@ while True:
     intentos += 1 
     palabra = input("Introduce la palabra secreta: ") 
     if palabra == secreta: 
-        print("ACERTASTE") 
+        print("ACERTASTE")
+ 
         break 
     else:
         print("SIGUE JUGANDO") 
-        

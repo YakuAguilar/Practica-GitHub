@@ -6,7 +6,7 @@ listaletras2=[]
 while True:
     letra=input("introduce una letra ")
     if letra.isalpha() and letra is not listaletras:
-        letra=unicodedata.normalize("NFD", letra)
+        letra=unicodedata.normalize("NFD", letra)[0]
         listaletras.append(letra)
         if input("quieres introducir otre letra? si/no: ").lower()== "no":
             break
