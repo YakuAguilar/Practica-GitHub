@@ -1,15 +1,13 @@
-
+lista=[]
 listaletras=[]
 listaletras2=[]
-letra=input("introduce una letra ")
-listaletras.append(letra)
-#print(listaletras)
-seguir=input("quieres introducir otre letra? si/no: ")
-if seguir== "si":
+while True:
     letra=input("introduce una letra ")
-    listaletras.append(letra)
-    seguir=input("quieres introducir otre letra? si/no: ")
-elif seguir== "no":
-    listaletras2=list(set(listaletras))
-    print(listaletras2)
+    if letra.isalpha() and letra is not listaletras:
+        listaletras.append(letra)
+        if input("quieres introducir otre letra? si/no: ").lower()== "no":
+            break
+listaletras2=list(set(listaletras))
+print(listaletras2)
+       
  
