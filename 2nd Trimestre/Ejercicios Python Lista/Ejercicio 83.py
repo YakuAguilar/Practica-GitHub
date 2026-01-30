@@ -9,7 +9,7 @@ while True:
     palabra = input("Introduce la palabra secreta: ") 
     if palabra == secreta: 
         print("ACERTASTE")
- 
+         
         break 
     else:
         print("SIGUE JUGANDO") 
