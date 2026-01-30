@@ -1,8 +1,9 @@
 numinicio=[]
-
+letrasDNI=["T, R, W, A, G, M, Y, F, P, D, X, B, N, J, Z, S, Q, V, H, L, C, K, E"]
 numinicio=int(input("introduce un numero de 8 digitos "))
-for x in range(len(numinicio)(8)):
-    resto=numinicio%23
+for x in range(len(numinicio)):
+    if len==8:
+        resto=numinicio%23
     if resto==0:
         print(f"{numinicio*23}-,T")
     elif resto==1:
