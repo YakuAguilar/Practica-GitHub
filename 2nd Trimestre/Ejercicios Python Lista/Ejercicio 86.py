@@ -1,17 +1,26 @@
 
-numinicio=[]
-letrasDNI=["T, R, W, A, G, M, Y, F, P, D, X, B, N, J, Z, S, Q, V, H, L, C, K, E"]
-numinicio=(input("introduce un numero de 8 digitos "))
-for x in range (len(str(numinicio))):
-    if (len(str(numinicio))) ==8:
-        resto=numinicio%23
-        if resto==0:
-            print()
 
 
-dni_numero=(input("introduce un numero de 8 digitos "))
-tabla_letras="TRWAGMYFPDXBNJZSQVHLCKE"
-resto = dni_numero % 23
-return tabla_letras-[resto]
-
-
+letras = "TRWAGMYFPDXBNJZSQVHLCKE"
+INTENTOS=[]
+continuar = "s"
+while continuar.lower()=="s":
+    dni= input("Introduce el número del DNI (8 dígitos): ")
+    if len(dni) != 8:
+        print("ERROR")
+        INTENTOS.append(0)
+    elif not dni.isdigit():
+        print("1")
+        INTENTOS.append(1)
+    else:
+        numero = int(dni)
+        resto = numero % 23
+        if 0 <= resto <= 22:
+            letra = letras[resto]
+            print(f"3 → DNI correcto: {dni}-{letra}")
+            INTENTOS.append(3)
+        else:
+            print("2")
+            INTENTOS.append(2)
+    continuar = input("¿Deseas continuar? (s/n): ")
+print("INTENTOS:", INTENTOS)
