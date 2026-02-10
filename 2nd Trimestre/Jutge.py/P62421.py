@@ -1,6 +1,7 @@
 
 
-
-for x in range (3):
-    var1=int(input())
+palabras=["hola", "adeu", "bye"]
+palabras2=palabras.copy()
+palabras2.reverse()
+print(palabras2)
 
