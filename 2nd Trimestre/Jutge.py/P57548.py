@@ -1,7 +1,7 @@
 
 
 
-valor1=int(input("introduce un numero "))
-valor2=int(input("introduce otro numero  "))
+valor1=int(input(" "))
+valor2=int(input(" "))
 suma=valor1+valor2
-print(f"la suma es {suma}")
+print(f"{suma}")
