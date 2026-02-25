@@ -32,7 +32,6 @@ def jugar_ahorcado():
         print(f"¡Felicidades! Has adivinado la palabra: '{palabra_secreta}'")
     else:
         print(f"Has perdido. La palabra correcta era: '{palabra_secreta}'")
-# Ejecutar el juego
 if __name__ == "__main__":
     jugar_ahorcado()
 
