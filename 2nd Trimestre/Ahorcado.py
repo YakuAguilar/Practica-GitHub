@@ -1,4 +1,6 @@
 import random
+s=0
+n=1
 lista_palabrasecretas=["patata", "perro", "ordenador", "teclado", "estuche", "raton", "movil", "mochila", "zapatos", "rascacielos"]
 palabra_secreta = random.choice(lista_palabrasecretas)
 Lista_partida = ["_" for _ in palabra_secreta]
@@ -34,4 +36,6 @@ def jugar_ahorcado():
         print(f"Has perdido. La palabra correcta era: '{palabra_secreta}'")
 if __name__ == "__main__":
     jugar_ahorcado()
+seguir_jugando=(int(input("deseas seguir jugando? s/n")))
+
 
