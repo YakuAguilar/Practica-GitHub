@@ -1,20 +1,13 @@
 import random
-lista_palabrasecretas=["Patata", "Perro", "Ordenador", "Teclado", "Estuche", "Raton", "Movil", "Mochila", "Zapatos", "Rascacielos"]
-# Palabra seleccionada aleatoriamente de la lista secreta
+lista_palabrasecretas=["patata", "perro", "ordenador", "teclado", "estuche", "raton", "movil", "mochila", "zapatos", "rascacielos"]
 palabra_secreta = random.choice(lista_palabrasecretas)
-# Lista de partida inicia con guiones según la longitud de la palabra secreta
 Lista_partida = ["_" for _ in palabra_secreta]
-# Lista de errores para el ahorcado
 Lista_ahorcado = []
-# Letras que representan el ahorcado
 letras_ahorcado = list("AHORCADO")
-# Contador de errores
 errores = 0
-# Función para mostrar el estado actual de la partida
 def mostrar_estado():
     print("Palabra: " + " ".join(Lista_partida))
     print("Errores: " + " ".join(Lista_ahorcado))
-# Función principal del juego
 def jugar_ahorcado():
     global errores
     print("¡Bienvenido al juego del Ahorcado!")
