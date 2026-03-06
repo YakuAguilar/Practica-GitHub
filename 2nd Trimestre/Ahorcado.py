@@ -36,9 +36,9 @@ def jugar_ahorcado():
         print(f"Has perdido. La palabra correcta era: '{palabra_secreta}'")
 if __name__ == "__main__":
     jugar_ahorcado()
-seguir_jugando=int(input("¿deseas seguir jugando? s/n "))
-if seguir_jugando==n:
+seguir_jugando=(input("¿deseas seguir jugando? s/n "))
+if seguir_jugando=="n":
     print("El juego se a acabado")
-elif seguir_jugando==s:
-    print("")
+elif seguir_jugando=="s":
+    print("XD")
 
