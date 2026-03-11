@@ -41,4 +41,5 @@ if seguir_jugando=="n":
     print("El juego se a acabado")
 elif seguir_jugando=="s":
     print("XD")
+    
 
